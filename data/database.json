@@ -74,6 +74,39 @@
       "balance": 49474,
       "createdAt": "2023-12-07T04:39:38.383Z",
       "modifiedAt": "2024-03-07T00:07:36.510Z"
+    },
+    {
+      "id": "BDbMqDova",
+      "uuid": "31916fd8-4059-4c23-ae57-7de875f131f6",
+      "firstName": "Mario",
+      "lastName": "Silva",
+      "username": "Mario_S",
+      "password": "$2a$10$0WpY.Oe4hpBhLuuKc38mhelH17E4OHhnZGmrTqwDQ6J5NKwWZCBP6",
+      "balance": 0,
+      "createdAt": "2025-05-12T23:59:53.266Z",
+      "modifiedAt": "2025-05-12T23:59:53.266Z"
+    },
+    {
+      "id": "RdrN5gLG8",
+      "uuid": "02495a73-2f22-4c80-bd3a-26905c62d493",
+      "firstName": "Mario",
+      "lastName": "Silva",
+      "username": "Mario_S",
+      "password": "$2a$10$0l4Bld2lBka9WpwbvLJp9OoefbKAT9FNjUByTlFr2azsmkKMDHX.u",
+      "balance": 0,
+      "createdAt": "2025-05-13T00:00:04.493Z",
+      "modifiedAt": "2025-05-13T00:00:04.493Z"
+    },
+    {
+      "id": "xzl049K0z",
+      "uuid": "f21ecb60-c3e4-4806-922f-c733fda23622",
+      "firstName": "Mario",
+      "lastName": "Silva",
+      "username": "Mario_S",
+      "password": "$2a$10$LL6CiGAcHtbDyuwmphPfB.cn3W2JEYOJGFdt6oa3Fjcs7h1ZtVUE2",
+      "balance": 0,
+      "createdAt": "2025-05-13T09:59:32.120Z",
+      "modifiedAt": "2025-05-13T09:59:32.120Z"
     }
   ],
   "contacts": [
@@ -253,6 +286,17 @@
       "isDeleted": false,
       "createdAt": "2024-01-26T14:01:01.815Z",
       "modifiedAt": "2024-03-07T08:44:31.174Z"
+    },
+    {
+      "id": "c93TEVFUQ",
+      "uuid": "a751420b-71ac-4d3a-87ea-f0215bdc33dd",
+      "userId": "BDbMqDova",
+      "bankName": "Mario Silva",
+      "accountNumber": "123456789",
+      "routingNumber": "123456789",
+      "isDeleted": false,
+      "createdAt": "2025-05-13T09:26:32.641Z",
+      "modifiedAt": "2025-05-13T09:26:32.641Z"
     }
   ],
   "transactions": [
