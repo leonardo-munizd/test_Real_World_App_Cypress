@@ -1,5 +1,5 @@
 describe('Tentar registrar um novo usuário com informações incompletas', () => {
-  it('Deve exibir mensagens de erro ao tentar registrar um novo usuário sem preencher todas as informações obrigatórias', () => {
+  it('Deve exibir mensagens de erro ao tentar registrar um novo usuário sem preencher todas as informações obrigatórias e botão nao fica visível', () => {
     cy.visit('http://localhost:3000/signin')
     cy.get('[data-test="signup"]').click()
     cy.get('#firstName').type('Maria')
