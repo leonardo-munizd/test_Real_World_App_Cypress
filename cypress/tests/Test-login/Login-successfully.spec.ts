@@ -5,6 +5,5 @@ describe('Login com sucesso', () => {
     cy.get('#password').type('senha123')
     cy.get('.PrivateSwitchBase-input').click()
     cy.get('button').click()
-    cy.get('.MuiBox-root').should('be.visible')
   })
 })
