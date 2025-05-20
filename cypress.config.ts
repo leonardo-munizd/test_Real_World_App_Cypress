@@ -24,11 +24,11 @@ module.exports = defineConfig({
     runMode: 2,
   },
   env: {
-    apiUrl: "http://localhost:3001",
+    apiUrl: "http://localhost:4000",
     mobileViewportWidthBreakpoint: 414,
     coverage: false,
     codeCoverage: {
-      url: "http://localhost:3001/__coverage__",
+      url: "http://localhost:4000/__coverage__",
       exclude: "cypress/**/*.*",
     },
     defaultPassword: process.env.SEED_DEFAULT_USER_PASSWORD,
@@ -74,7 +74,7 @@ module.exports = defineConfig({
              * so users can switch between CT and E2E testing without having to
              * stop/start the RWA dev server.
              */
-            port: 3002,
+            port: 4000,
           },
         };
         const resolvedViteConfig = mergeConfig(viteConfig, conf);
