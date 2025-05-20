@@ -1,0 +1,10 @@
+{
+  "userSucess": {
+    "userName": "Mario_S",
+    "password": "senha123"
+  },
+  "userFail": {
+    "userName": "Mario_S",
+    "password": "senha"
+  }
+}
